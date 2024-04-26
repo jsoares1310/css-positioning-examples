@@ -1,0 +1,90 @@
+ul {
+    list-style: none
+}
+
+h1 {
+    text-align: center;
+    color: rgb(79, 53, 226);
+    width:fit-content;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#nave {
+    border-style: solid;
+    box-sizing: border-box;
+    width: 100px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+ul.cima {
+    vertical-align: middle;
+}
+
+header {
+    background-color:rgb(219, 217, 248) ;
+    display: inline-block;
+    width:100% ;
+    border-color: azure;
+    color: azure;
+}
+
+.topo {
+    width:fit-content;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50%;
+    margin-top: 15px;
+    
+}
+
+ul.base {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 60%;
+}
+
+footer {
+    position: sticky;
+    bottom: 20px;
+}
+
+.dropdown {
+    position:relative;
+}
+
+#services-menu {
+    position:absolute;
+    top: 100%;
+    left: 0 ;
+    width: 100px;
+    z-index: 2;
+    padding-left: 0;
+    background-color: rgb(219, 217, 248);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-2vh);
+    transition: opacity 0.3s, transform 0.15s; 
+}
+
+#services-menu a {
+    display: block;
+    white-space: nowrap;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.dropdown:hover #services-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#stickyassign {
+    list-style: none;
+    position: sticky;
+    
+    
+}
